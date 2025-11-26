@@ -54,7 +54,7 @@ const HeroSection: React.FC = () => {
                     key={cat.name}
                     className="text-center"
                   >
-                    <Link href={cat.href}>
+                    <Link href={'/electronics'} className="block">
                       <div className="bg-gray-100 rounded-full w-16 h-16 mx-auto flex items-center justify-center">
                         <Image
                           src={cat.image}

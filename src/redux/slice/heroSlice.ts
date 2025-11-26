@@ -6,7 +6,6 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
    Type Definitions
 ========================== */
 
-// Category structure for Hot Categories section
 export interface Category {
   name: string;
   image: string;
