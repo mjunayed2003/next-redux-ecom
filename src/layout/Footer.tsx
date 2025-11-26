@@ -14,16 +14,9 @@ const Footer: React.FC = () => {
 
                     {/* Column 1: Logo and Description */}
                     <div className="lg:col-span-2">
-                        <Link href="/" className="inline-block mb-4 relative w-38 h-8">
-                            
-                                <Image
-                                    src="https://woodmart.xtemos.com/marketplace2/wp-content/uploads/sites/21/2024/03/logo.svg"
-                                    alt="Grabit Logo"
-                                    width={112}
-                                    height={32}
-                                    style={{ objectFit: 'contain' }}
-                                />
-                        </Link>
+                        
+                        <h1 className="flex items-center text-4xl font-bold">Bikroy<span className="text-red-400">Ghor</span></h1>
+
                         <p className="text-sm leading-relaxed mb-4 max-w-sm">
                             Grabit is the biggest market of grocery products. Get your daily needs from our store.
                         </p>
